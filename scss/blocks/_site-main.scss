@@ -1,0 +1,39 @@
+.site-main {
+    padding-top: 400px;
+}
+.site-main__form {
+    display: flex;
+    flex-direction: column;
+}
+.site-main__input {
+    margin: 0 auto;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 400px;
+    outline: none;
+    border-radius: 8px;
+    &::placeholder{
+        padding-left: 3px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #000;
+    }
+}
+.site-main__btn {
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover{
+        box-shadow: 12px 6px 4px #1a1818c9;
+        text-shadow: 1px 1px 1px #000;
+    }
+}
