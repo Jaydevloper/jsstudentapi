@@ -5,7 +5,7 @@ const elAge = document.getElementById('age');
 const API = 'https://student-express.herokuapp.com/site/student'
 
 
-elForm.addEventListener('submit' , e =>{
+elForm.addEventListener('submit' , e => {
     e.preventDefault();
     fetch(API, {
         method:'POST',
@@ -17,8 +17,21 @@ elForm.addEventListener('submit' , e =>{
             lastName:elLname.value,
             age:elAge.value,
         })
+    })  
+    .then(res => res.json())
+    .then(data =>{
+        // localStorage.setItem('token',data)
+        location.href = 'dashboard.html'
     })
-    .then(res =>res.json())
-    .then(data => console.log(data))
     e.target.reset();
 })
+
+
+
+
+
+   
+
+
+
+

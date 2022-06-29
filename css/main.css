@@ -473,4 +473,68 @@ template {
           box-shadow: 12px 6px 4px #1a1818c9;
   text-shadow: 1px 1px 1px #000;
 }
+
+#btn {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.div {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid #000;
+}
+
+.edit-page {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: #1cb4ff;
+  border-radius: 5px;
+  width: 300px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+
+.edit {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.edit::-webkit-input-placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
+
+.edit:-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
+
+.edit::-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
+
+.edit::placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
 /*# sourceMappingURL=main.css.map */
